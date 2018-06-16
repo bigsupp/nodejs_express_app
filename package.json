@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_express_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "latest",
+    "bootstrap": "^3.*",
+    "dotenv": "latest",
+    "express": "^4.*",
+    "jquery": "latest",
+    "moment": "latest",
+    "path": "latest",
+    "pug": "latest"
+  }
+}

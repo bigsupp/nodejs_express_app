@@ -1,0 +1,20 @@
+# Node
+*.env
+node_modules/
+npm-debug.log
+
+# IDE
+.idea/
+.vscode/
+
+# Library documentation & tests
+sample/
+samples/
+test/
+tests/
+*.bak
+*.backup
+*.default
+
+# Logs
+*.log

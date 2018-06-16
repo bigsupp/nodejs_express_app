@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    include ./template_head_script.pug
+    include ./template_head_style.pug
+    title Web App
+  body
+    include ./template_body_header.pug
+    include ./template_navigator.pug
+    .container
+      #body-top
+         block body-top
+      #body-content
+         block body-content
+      #body-bottom
+         block body-bottom
+    .container
+      #footer
+        include ./template_body_footer.pug
+    include ./template_body_script.pug
